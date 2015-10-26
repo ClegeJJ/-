@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0AAB7441BDCD4EA00DF73B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AAB7431BDCD4EA00DF73B2 /* main.m */; };
-		F0AAB7471BDCD4EA00DF73B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AAB7461BDCD4EA00DF73B2 /* AppDelegate.m */; };
-		F0AAB74A1BDCD4EA00DF73B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AAB7491BDCD4EA00DF73B2 /* ViewController.m */; };
+		F05E17C81BDE15AE00A7D631 /* UIBarButtonItem+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17AA1BDE15AE00A7D631 /* UIBarButtonItem+CJ.m */; };
+		F05E17C91BDE15AE00A7D631 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17AC1BDE15AE00A7D631 /* UIImage+Extension.m */; };
+		F05E17CA1BDE15AE00A7D631 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17AE1BDE15AE00A7D631 /* UIView+Extension.m */; };
+		F05E17CB1BDE15AE00A7D631 /* CJManiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17B11BDE15AE00A7D631 /* CJManiViewController.m */; };
+		F05E17CC1BDE15AE00A7D631 /* CJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17B31BDE15AE00A7D631 /* CJNavigationController.m */; };
+		F05E17CD1BDE15AE00A7D631 /* CJNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17B51BDE15AE00A7D631 /* CJNewsViewController.m */; };
+		F05E17CE1BDE15AE00A7D631 /* CJReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17B71BDE15AE00A7D631 /* CJReadingViewController.m */; };
+		F05E17CF1BDE15AE00A7D631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17BB1BDE15AE00A7D631 /* AppDelegate.m */; };
+		F05E17D11BDE15AE00A7D631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17BD1BDE15AE00A7D631 /* main.m */; };
+		F05E17D21BDE15AE00A7D631 /* CJLeftMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17C11BDE15AE00A7D631 /* CJLeftMenuBar.m */; };
+		F05E17D31BDE15AE00A7D631 /* CJLetfMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17C31BDE15AE00A7D631 /* CJLetfMenuButton.m */; };
+		F05E17D41BDE15AE00A7D631 /* CJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17C51BDE15AE00A7D631 /* CJNavigationBar.m */; };
+		F05E17D51BDE15AE00A7D631 /* CJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17C71BDE15AE00A7D631 /* CJTitleView.m */; };
+		F05E17D71BDE17B600A7D631 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F05E17D61BDE17B600A7D631 /* Info.plist */; };
+		F05E17DB1BDE186C00A7D631 /* sidebar_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F05E17DA1BDE186C00A7D631 /* sidebar_bg@2x.jpg */; };
+		F05E17DF1BDE193800A7D631 /* CJRightMeunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17DD1BDE193800A7D631 /* CJRightMeunViewController.m */; };
+		F05E17E01BDE193800A7D631 /* CJRightMeunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05E17DE1BDE193800A7D631 /* CJRightMeunViewController.xib */; };
+		F05E17E91BDE4AC900A7D631 /* HMRightMenuCenterViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E17E71BDE4AC900A7D631 /* HMRightMenuCenterViewRow.m */; };
+		F05E17EA1BDE4AC900A7D631 /* HMRightMenuCenterViewRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05E17E81BDE4AC900A7D631 /* HMRightMenuCenterViewRow.xib */; };
 		F0AAB74D1BDCD4EA00DF73B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AAB74B1BDCD4EA00DF73B2 /* Main.storyboard */; };
 		F0AAB74F1BDCD4EA00DF73B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0AAB74E1BDCD4EA00DF73B2 /* Images.xcassets */; };
 		F0AAB7521BDCD4EA00DF73B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AAB7501BDCD4EA00DF73B2 /* LaunchScreen.xib */; };
@@ -27,13 +43,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F05E17A91BDE15AE00A7D631 /* UIBarButtonItem+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CJ.h"; sourceTree = "<group>"; };
+		F05E17AA1BDE15AE00A7D631 /* UIBarButtonItem+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CJ.m"; sourceTree = "<group>"; };
+		F05E17AB1BDE15AE00A7D631 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		F05E17AC1BDE15AE00A7D631 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		F05E17AD1BDE15AE00A7D631 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F05E17AE1BDE15AE00A7D631 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F05E17B01BDE15AE00A7D631 /* CJManiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJManiViewController.h; sourceTree = "<group>"; };
+		F05E17B11BDE15AE00A7D631 /* CJManiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJManiViewController.m; sourceTree = "<group>"; };
+		F05E17B21BDE15AE00A7D631 /* CJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJNavigationController.h; sourceTree = "<group>"; };
+		F05E17B31BDE15AE00A7D631 /* CJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJNavigationController.m; sourceTree = "<group>"; };
+		F05E17B41BDE15AE00A7D631 /* CJNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJNewsViewController.h; sourceTree = "<group>"; };
+		F05E17B51BDE15AE00A7D631 /* CJNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJNewsViewController.m; sourceTree = "<group>"; };
+		F05E17B61BDE15AE00A7D631 /* CJReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJReadingViewController.h; sourceTree = "<group>"; };
+		F05E17B71BDE15AE00A7D631 /* CJReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJReadingViewController.m; sourceTree = "<group>"; };
+		F05E17BA1BDE15AE00A7D631 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F05E17BB1BDE15AE00A7D631 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F05E17BD1BDE15AE00A7D631 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F05E17BE1BDE15AE00A7D631 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F05E17C01BDE15AE00A7D631 /* CJLeftMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLeftMenuBar.h; sourceTree = "<group>"; };
+		F05E17C11BDE15AE00A7D631 /* CJLeftMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLeftMenuBar.m; sourceTree = "<group>"; };
+		F05E17C21BDE15AE00A7D631 /* CJLetfMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJLetfMenuButton.h; sourceTree = "<group>"; };
+		F05E17C31BDE15AE00A7D631 /* CJLetfMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLetfMenuButton.m; sourceTree = "<group>"; };
+		F05E17C41BDE15AE00A7D631 /* CJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJNavigationBar.h; sourceTree = "<group>"; };
+		F05E17C51BDE15AE00A7D631 /* CJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJNavigationBar.m; sourceTree = "<group>"; };
+		F05E17C61BDE15AE00A7D631 /* CJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTitleView.h; sourceTree = "<group>"; };
+		F05E17C71BDE15AE00A7D631 /* CJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTitleView.m; sourceTree = "<group>"; };
+		F05E17D61BDE17B600A7D631 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05E17DA1BDE186C00A7D631 /* sidebar_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sidebar_bg@2x.jpg"; sourceTree = "<group>"; };
+		F05E17DC1BDE193800A7D631 /* CJRightMeunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRightMeunViewController.h; sourceTree = "<group>"; };
+		F05E17DD1BDE193800A7D631 /* CJRightMeunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRightMeunViewController.m; sourceTree = "<group>"; };
+		F05E17DE1BDE193800A7D631 /* CJRightMeunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJRightMeunViewController.xib; sourceTree = "<group>"; };
+		F05E17E61BDE4AC900A7D631 /* HMRightMenuCenterViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRightMenuCenterViewRow.h; sourceTree = "<group>"; };
+		F05E17E71BDE4AC900A7D631 /* HMRightMenuCenterViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRightMenuCenterViewRow.m; sourceTree = "<group>"; };
+		F05E17E81BDE4AC900A7D631 /* HMRightMenuCenterViewRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMRightMenuCenterViewRow.xib; sourceTree = "<group>"; };
 		F0AAB73E1BDCD4EA00DF73B2 /* 网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0AAB7421BDCD4EA00DF73B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0AAB7431BDCD4EA00DF73B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F0AAB7451BDCD4EA00DF73B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F0AAB7461BDCD4EA00DF73B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0AAB7481BDCD4EA00DF73B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F0AAB7491BDCD4EA00DF73B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0AAB74C1BDCD4EA00DF73B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0AAB74E1BDCD4EA00DF73B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F0AAB7511BDCD4EA00DF73B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +104,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F05E17A71BDE15AE00A7D631 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F05E17A81BDE15AE00A7D631 /* Category */,
+				F05E17AF1BDE15AE00A7D631 /* Controller */,
+				F05E17B81BDE15AE00A7D631 /* Model */,
+				F05E17B91BDE15AE00A7D631 /* Other */,
+				F05E17BF1BDE15AE00A7D631 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F05E17A81BDE15AE00A7D631 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F05E17A91BDE15AE00A7D631 /* UIBarButtonItem+CJ.h */,
+				F05E17AA1BDE15AE00A7D631 /* UIBarButtonItem+CJ.m */,
+				F05E17AB1BDE15AE00A7D631 /* UIImage+Extension.h */,
+				F05E17AC1BDE15AE00A7D631 /* UIImage+Extension.m */,
+				F05E17AD1BDE15AE00A7D631 /* UIView+Extension.h */,
+				F05E17AE1BDE15AE00A7D631 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F05E17AF1BDE15AE00A7D631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F05E17B01BDE15AE00A7D631 /* CJManiViewController.h */,
+				F05E17B11BDE15AE00A7D631 /* CJManiViewController.m */,
+				F05E17B21BDE15AE00A7D631 /* CJNavigationController.h */,
+				F05E17B31BDE15AE00A7D631 /* CJNavigationController.m */,
+				F05E17DC1BDE193800A7D631 /* CJRightMeunViewController.h */,
+				F05E17DD1BDE193800A7D631 /* CJRightMeunViewController.m */,
+				F05E17DE1BDE193800A7D631 /* CJRightMeunViewController.xib */,
+				F05E17B41BDE15AE00A7D631 /* CJNewsViewController.h */,
+				F05E17B51BDE15AE00A7D631 /* CJNewsViewController.m */,
+				F05E17B61BDE15AE00A7D631 /* CJReadingViewController.h */,
+				F05E17B71BDE15AE00A7D631 /* CJReadingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F05E17B81BDE15AE00A7D631 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F05E17B91BDE15AE00A7D631 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F05E17BA1BDE15AE00A7D631 /* AppDelegate.h */,
+				F05E17BB1BDE15AE00A7D631 /* AppDelegate.m */,
+				F05E17BD1BDE15AE00A7D631 /* main.m */,
+				F05E17BE1BDE15AE00A7D631 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F05E17BF1BDE15AE00A7D631 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F05E17C01BDE15AE00A7D631 /* CJLeftMenuBar.h */,
+				F05E17C11BDE15AE00A7D631 /* CJLeftMenuBar.m */,
+				F05E17C21BDE15AE00A7D631 /* CJLetfMenuButton.h */,
+				F05E17C31BDE15AE00A7D631 /* CJLetfMenuButton.m */,
+				F05E17C41BDE15AE00A7D631 /* CJNavigationBar.h */,
+				F05E17C51BDE15AE00A7D631 /* CJNavigationBar.m */,
+				F05E17C61BDE15AE00A7D631 /* CJTitleView.h */,
+				F05E17C71BDE15AE00A7D631 /* CJTitleView.m */,
+				F05E17E61BDE4AC900A7D631 /* HMRightMenuCenterViewRow.h */,
+				F05E17E71BDE4AC900A7D631 /* HMRightMenuCenterViewRow.m */,
+				F05E17E81BDE4AC900A7D631 /* HMRightMenuCenterViewRow.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F0AAB7351BDCD4EA00DF73B2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +204,7 @@
 		F0AAB7401BDCD4EA00DF73B2 /* 网易新闻 */ = {
 			isa = PBXGroup;
 			children = (
-				F0AAB7451BDCD4EA00DF73B2 /* AppDelegate.h */,
-				F0AAB7461BDCD4EA00DF73B2 /* AppDelegate.m */,
-				F0AAB7481BDCD4EA00DF73B2 /* ViewController.h */,
-				F0AAB7491BDCD4EA00DF73B2 /* ViewController.m */,
-				F0AAB74B1BDCD4EA00DF73B2 /* Main.storyboard */,
-				F0AAB74E1BDCD4EA00DF73B2 /* Images.xcassets */,
-				F0AAB7501BDCD4EA00DF73B2 /* LaunchScreen.xib */,
+				F05E17A71BDE15AE00A7D631 /* Classes */,
 				F0AAB7411BDCD4EA00DF73B2 /* Supporting Files */,
 			);
 			path = "网易新闻";
@@ -96,8 +213,11 @@
 		F0AAB7411BDCD4EA00DF73B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0AAB7421BDCD4EA00DF73B2 /* Info.plist */,
-				F0AAB7431BDCD4EA00DF73B2 /* main.m */,
+				F05E17DA1BDE186C00A7D631 /* sidebar_bg@2x.jpg */,
+				F05E17D61BDE17B600A7D631 /* Info.plist */,
+				F0AAB74B1BDCD4EA00DF73B2 /* Main.storyboard */,
+				F0AAB74E1BDCD4EA00DF73B2 /* Images.xcassets */,
+				F0AAB7501BDCD4EA00DF73B2 /* LaunchScreen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +283,7 @@
 		F0AAB7361BDCD4EA00DF73B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CJ;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = mac527;
 				TargetAttributes = {
@@ -199,7 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05E17D71BDE17B600A7D631 /* Info.plist in Resources */,
 				F0AAB74D1BDCD4EA00DF73B2 /* Main.storyboard in Resources */,
+				F05E17EA1BDE4AC900A7D631 /* HMRightMenuCenterViewRow.xib in Resources */,
+				F05E17DB1BDE186C00A7D631 /* sidebar_bg@2x.jpg in Resources */,
+				F05E17E01BDE193800A7D631 /* CJRightMeunViewController.xib in Resources */,
 				F0AAB7521BDCD4EA00DF73B2 /* LaunchScreen.xib in Resources */,
 				F0AAB74F1BDCD4EA00DF73B2 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +344,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AAB74A1BDCD4EA00DF73B2 /* ViewController.m in Sources */,
-				F0AAB7471BDCD4EA00DF73B2 /* AppDelegate.m in Sources */,
-				F0AAB7441BDCD4EA00DF73B2 /* main.m in Sources */,
+				F05E17CA1BDE15AE00A7D631 /* UIView+Extension.m in Sources */,
+				F05E17C81BDE15AE00A7D631 /* UIBarButtonItem+CJ.m in Sources */,
+				F05E17CD1BDE15AE00A7D631 /* CJNewsViewController.m in Sources */,
+				F05E17CC1BDE15AE00A7D631 /* CJNavigationController.m in Sources */,
+				F05E17E91BDE4AC900A7D631 /* HMRightMenuCenterViewRow.m in Sources */,
+				F05E17CF1BDE15AE00A7D631 /* AppDelegate.m in Sources */,
+				F05E17CE1BDE15AE00A7D631 /* CJReadingViewController.m in Sources */,
+				F05E17D51BDE15AE00A7D631 /* CJTitleView.m in Sources */,
+				F05E17D21BDE15AE00A7D631 /* CJLeftMenuBar.m in Sources */,
+				F05E17CB1BDE15AE00A7D631 /* CJManiViewController.m in Sources */,
+				F05E17D11BDE15AE00A7D631 /* main.m in Sources */,
+				F05E17C91BDE15AE00A7D631 /* UIImage+Extension.m in Sources */,
+				F05E17D41BDE15AE00A7D631 /* CJNavigationBar.m in Sources */,
+				F05E17D31BDE15AE00A7D631 /* CJLetfMenuButton.m in Sources */,
+				F05E17DF1BDE193800A7D631 /* CJRightMeunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +425,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/网易新闻/Classes/Other/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -330,6 +468,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/网易新闻/Classes/Other/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -347,7 +486,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/网易新闻/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +499,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/网易新闻/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +561,7 @@
 				F0AAB7631BDCD4EA00DF73B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0AAB7641BDCD4EA00DF73B2 /* Build configuration list for PBXNativeTarget "网易新闻Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +570,7 @@
 				F0AAB7661BDCD4EA00DF73B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

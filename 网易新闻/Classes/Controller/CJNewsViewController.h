@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CJNewsViewController.h
 //  网易新闻
 //
 //  Created by mac527 on 15/10/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CJNewsViewController : UITableViewController
 
 @end
-
